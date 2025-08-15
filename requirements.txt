@@ -1,0 +1,12 @@
+# Core Requirements
+Flask==2.3.2
+gunicorn==20.1.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Security
+Werkzeug==2.3.7  # Pinned for security fixes
+
+# Production Extras
+psycopg2-binary==2.9.7  # For PostgreSQL (if using Render's DB)
+redis==4.5.5  # For rate limiting (optional)
