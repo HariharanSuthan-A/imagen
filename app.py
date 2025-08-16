@@ -13,7 +13,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configuration
-MAX_FREE_DAILY = 3
+MAX_FREE_DAILY = 10
 MAX_FREE_MONTHLY = 30
 MAX_PAID_MONTHLY = 200
 API_KEYS = os.getenv('API_KEYS', '').split(',')
