@@ -12,8 +12,8 @@ load_dotenv()
 app = Flask(__name__)
 
 # Configuration
-MAX_FREE_DAILY = 3
-MAX_FREE_MONTHLY = 30
+MAX_FREE_DAILY = 60
+MAX_FREE_MONTHLY = 100
 MAX_PAID_MONTHLY = 200
 API_KEYS = os.getenv('API_KEYS', '').split(',')
 RESET_INTERVAL = 24 * 3600  # Daily reset in seconds
